@@ -1,0 +1,38 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             GUA_Tucson   R-squared:                       0.244
+Model:                            OLS   Adj. R-squared:                  0.243
+Method:                 Least Squares   F-statistic:                     439.8
+Date:                Sat, 27 Apr 2024   Prob (F-statistic):               0.00
+Time:                        18:33:35   Log-Likelihood:            -1.7713e+05
+No. Observations:               16384   AIC:                         3.543e+05
+Df Residuals:                   16371   BIC:                         3.544e+05
+Df Model:                          12                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================================================
+                                                                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------
+Year                                                                   87.8540      2.845     30.879      0.000      82.277      93.431
+Temperature                                                         -5543.7542    244.476    -22.676      0.000   -6022.955   -5064.554
+Population, total                                                    3.464e-07   6.03e-07      0.575      0.565   -8.35e-07    1.53e-06
+Rural population (% of total population)                             -2.69e-06   3.77e-06     -0.714      0.475   -1.01e-05     4.7e-06
+Population ages 15-64 (% of total population)                       -1.482e-06   3.93e-06     -0.377      0.706   -9.18e-06    6.22e-06
+Unemployment, total (% of total labor force) (modeled ILO estimate)    -0.0004   6.93e-05     -6.252      0.000      -0.001      -0.000
+Victims of intentional homicide                                         0.3217      0.013     24.257      0.000       0.296       0.348
+Prevalence of severe food insecurity in the population (%)              0.0013      0.000      5.981      0.000       0.001       0.002
+Prevalence of undernourishment (% of population)                       -0.0147      0.000    -49.224      0.000      -0.015      -0.014
+Corruption                                                             -0.3729      0.022    -16.629      0.000      -0.417      -0.329
+Government Effectiveness: Estimate                                   -353.3062     86.415     -4.088      0.000    -522.689    -183.923
+GDP (current US$)                                                    4.429e-11   8.88e-12      4.990      0.000    2.69e-11    6.17e-11
+GDP per capita (current US$)                                            0.0159      0.003      5.092      0.000       0.010       0.022
+==============================================================================
+Omnibus:                     3317.833   Durbin-Watson:                   0.045
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5731.496
+Skew:                           1.357   Prob(JB):                         0.00
+Kurtosis:                       4.014   Cond. No.                     3.90e+13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.9e+13. This might indicate that there are
+strong multicollinearity or other numerical problems.

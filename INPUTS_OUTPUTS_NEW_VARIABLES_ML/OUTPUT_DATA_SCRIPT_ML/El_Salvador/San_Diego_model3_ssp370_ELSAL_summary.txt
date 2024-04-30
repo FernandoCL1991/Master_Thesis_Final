@@ -1,0 +1,39 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        ELSAL_San_Diego   R-squared:                       0.393
+Model:                            OLS   Adj. R-squared:                  0.393
+Method:                 Least Squares   F-statistic:                     816.9
+Date:                Sat, 27 Apr 2024   Prob (F-statistic):               0.00
+Time:                        13:16:40   Log-Likelihood:            -1.2683e+05
+No. Observations:               16384   AIC:                         2.537e+05
+Df Residuals:                   16370   BIC:                         2.538e+05
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================================================
+                                                                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------
+Year                                                                  -17.4317      0.187    -93.180      0.000     -17.798     -17.065
+Temperature                                                          1421.5983     14.751     96.372      0.000    1392.685    1450.512
+Population, total                                                   -7.657e-09   2.71e-08     -0.283      0.777   -6.07e-08    4.54e-08
+Rural population (% of total population)                             4.235e-08   1.55e-07      0.273      0.785   -2.62e-07    3.47e-07
+Population ages 15-64 (% of total population)                        3.874e-08   1.62e-07      0.239      0.811   -2.79e-07    3.57e-07
+Unemployment, total (% of total labor force) (modeled ILO estimate)  6.818e-05   3.15e-06     21.673      0.000     6.2e-05    7.43e-05
+Victims of intentional homicide                                         0.0165      0.001     30.586      0.000       0.015       0.018
+Prevalence of severe food insecurity in the population (%)           1.272e-05   4.62e-06      2.755      0.006    3.67e-06    2.18e-05
+Prevalence of undernourishment (% of population)                     7.788e-06   3.83e-06      2.033      0.042     2.8e-07    1.53e-05
+Corruption                                                              0.0072      0.001     11.043      0.000       0.006       0.008
+Government Effectiveness: Estimate                                     20.6077      4.886      4.218      0.000      11.030      30.185
+Political Stability and Absence of Violence/Terrorism: Estimate      4409.3959     59.325     74.326      0.000    4293.112    4525.680
+GDP (current US$)                                                   -3.343e-13   4.11e-13     -0.814      0.416   -1.14e-12    4.71e-13
+GDP per capita (current US$)                                           -0.0001      0.000     -0.742      0.458      -0.000       0.000
+==============================================================================
+Omnibus:                     1155.526   Durbin-Watson:                   0.010
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1419.123
+Skew:                           0.721   Prob(JB):                    6.94e-309
+Kurtosis:                       3.042   Cond. No.                     2.06e+14
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.06e+14. This might indicate that there are
+strong multicollinearity or other numerical problems.
