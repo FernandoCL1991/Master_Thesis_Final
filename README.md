@@ -15,15 +15,13 @@ a.	 https://tracfed.syr.edu/trachelp/tracsite/helptrac_atwork.shtml
 a.	https://www.dkrz.de/en/communication/climate-simulations/cmip6-en/the-ssp-scenarios
 3.	Historical data for additional variables used in the model was retrieved from the World Bank.
 
+
 Some of the results:
 ![image](https://github.com/user-attachments/assets/012f1a6f-acc6-4bfa-9dff-9729a6cafbf6)
-
-
+![image](https://github.com/user-attachments/assets/4a233e77-2824-4b9c-81b4-ca817ad0bbe0)
+![image](https://github.com/user-attachments/assets/ed7046df-78a3-4738-8611-a7dc216e7655)
 ![image](https://github.com/user-attachments/assets/400deb3f-66b7-49ba-9c52-72986757b918)
 ![image](https://github.com/user-attachments/assets/eb03c4b6-2eda-45eb-b2d6-64222c7b1548)
-
-
-
 
 There are three scripts for each border crossing for each of the four countries, giving 12 scripts. Each script generates projections under each of the four climate scenarios, generating graphs projecting the increase in immigration and an OLS Regression Results .txt file specific to each country under a specific scenario on each border crossing.
 -	Input CSV files for the models are located in the folder file: INPUTS_OUTPUTS_NEW_VARIABLES_ML
